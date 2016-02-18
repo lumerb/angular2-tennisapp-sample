@@ -1,0 +1,72 @@
+$width: 90%;
+$mainclr: #005CB1;
+$lightclr: #00669B;
+$darkclr: #093437;
+
+.container {
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: $darkclr;
+	font-family: Helvetica, Sans-Serif;
+	width: $width;
+	margin: 10px auto;
+	background-color: lighten($lightclr, 60%);
+	padding: 20px;
+
+	h1 {
+		color: $darkclr;
+	}
+	a {
+		text-decoration: none;
+		color: $lightclr;
+		background-color: $darkclr;
+		border-radius: 10px 0px 10px 0px;
+		padding: 10px;
+		margin-left: 10px;
+		margin-bottom: 20px;
+
+		&:hover {
+			color: $darkclr;
+			background-color: $lightclr;
+		}
+	}
+}
+.content {
+	padding-top: 20px;
+}
+.players {
+	h3 {
+		border-radius: 10px;
+		border: 2px solid $lightclr;
+		width: 300px;
+		padding: 10px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $lightclr;
+			color: $darkclr;
+		}
+	}
+	.nos {
+		width: 50px !important;
+		padding: 10px;
+		font-size: .7em;
+		border-radius: 10px 0px 0px 10px;
+	}
+}
+button {
+	text-decoration: none;
+	cursor: pointer;
+	color: $lightclr;
+	background-color: $darkclr;
+	border-radius: 10px 0px 10px 0px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border: none;
+
+	&:hover {
+		color: $darkclr;
+		background-color: $lightclr;
+	}
+}

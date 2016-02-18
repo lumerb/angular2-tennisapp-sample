@@ -1,0 +1,56 @@
+.container {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #093437;
+  font-family: Helvetica, Sans-Serif;
+  width: 90%;
+  margin: 10px auto;
+  background-color: #ceeeff;
+  padding: 20px; }
+  .container h1 {
+    color: #093437; }
+  .container a {
+    text-decoration: none;
+    color: #00669B;
+    background-color: #093437;
+    border-radius: 10px 0px 10px 0px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px; }
+    .container a:hover {
+      color: #093437;
+      background-color: #00669B; }
+
+.content {
+  padding-top: 20px; }
+
+.players h3 {
+  border-radius: 10px;
+  border: 2px solid #00669B;
+  width: 300px;
+  padding: 10px;
+  cursor: pointer; }
+  .players h3:hover {
+    background-color: #00669B;
+    color: #093437; }
+.players .nos {
+  width: 50px !important;
+  padding: 10px;
+  font-size: .7em;
+  border-radius: 10px 0px 0px 10px; }
+
+button {
+  text-decoration: none;
+  cursor: pointer;
+  color: #00669B;
+  background-color: #093437;
+  border-radius: 10px 0px 10px 0px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border: none; }
+  button:hover {
+    color: #093437;
+    background-color: #00669B; }
+
+/*# sourceMappingURL=styles.css.map */

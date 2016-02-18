@@ -1,0 +1,34 @@
+{
+  "name": "angular-2-tennis-app",
+  "version": "1.0.0",
+  "description": "Tennis App showing the top ten players (ATP Rankings) as of February 2016.",
+  "author": "lumerb",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "test": "live-server --open=src/unit-tests.html"
+  },
+  "dependencies": {
+    "a2-in-memory-web-api": "~0.1.0",
+    "angular2": "2.0.0-beta.3",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "systemjs": "0.19.17",
+    "zone.js": "0.5.11"
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "jasmine-core": "2.4.1",
+    "lite-server": "^2.0.1",
+    "typescript": "^1.8.0"
+  }
+}
